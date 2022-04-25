@@ -214,6 +214,20 @@ Navbar
 .showMenu {
   height: 280px;
   }
+  @media screen and (min-width:992px){
+    .nav-toggle {
+      display: none;
+    }
+    .nav-center {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .nav-links {
+      display: flex;
+      height: auto;
+    }
+  }
 /*
 =============== 
 Hero
